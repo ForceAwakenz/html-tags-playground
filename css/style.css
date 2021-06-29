@@ -1,0 +1,79 @@
+*, *::after,  *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: radial-gradient(ellipse at top, #5489c2, #8c3eb323),
+    radial-gradient(ellipse at bottom, #bf1c63ba, #28b81b);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* ------------- General ------------- */
+
+a {
+    text-decoration: none;
+    padding: 100% 1rem;
+    color: rgb(199, 199, 50);
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+/* ------------- Header ------------- */
+
+header {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #c1c1c1;
+    padding: 3vh 0;
+}
+
+.fa-sun {
+    color: #c1c1c1;
+    width:fit-content;
+    font-size: 5rem;
+    padding: 3vh 3vw;
+}
+
+header a.navbar {
+    height: 100%;
+    font-size: 1.3rem;
+    background: rgba(255,255,255,0.05) radial-gradient(transparent 10% 50%, rgba(4, 147, 4, 0.166)  100%);
+}
+
+a.navbar:hover {
+    /* background: #5743da; */
+    background: rgba(0, 0, 0, 0.15)
+    radial-gradient(transparent 10% 50%, rgba(4, 147, 4, 0.166)  100%);
+}
+
+nav ul li a {
+    border-right: dotted 1px rgb(116, 0, 99);
+}
+
+nav ul li:last-child a {
+        border-right: none;
+}
+
+main {
+    height: 300px;
+    width: 300px;
+
+}
