@@ -107,12 +107,13 @@ nav ul li:last-child a {
         border-bottom-right-radius: 10px;
 }
 
-main {
+.basic-article {
     width: 500px;
     height: 200px;
     background: rgba(255,255,255,0.15)
     radial-gradient(ellipse at center, #ffffff9c, transparent);
     border-radius: 5px;
+    margin: 2vh 2vw;
 }
 
 /* ----------------------------------------------------- */
