@@ -19,12 +19,21 @@ html, body {
 
 a {
     text-decoration: none;
-    color: rgb(199, 199, 50);
+    color: #c7c732;
 }
 
-ul {
+a:hover {
+    color: #d0eb21;
+}
+
+nav ul {
     list-style: none;
     display: flex;
+}
+
+p {
+    padding: 1rem 0;
+    margin: 10px;
 }
 
 
@@ -39,6 +48,10 @@ header {
     flex-wrap: wrap;
 }
 
+.main-header {
+    padding: 10px;
+}
+
 nav {
     margin-right: 45px;
     align-items: flex-start;
@@ -47,8 +60,6 @@ nav {
 header ul {
     display: flex;
     align-items: center;
-
-
 }
 
 .logo {
@@ -70,21 +81,19 @@ h1 {
 }
 
 header a.navbar-link {
-    background: rgba(255,255,255,0.15) radial-gradient(transparent 10% 50%, rgba(4, 147, 4, 0.08)  100%);
+    background: rgba(255,255,255,0.15);
 }
 
 a.navbar-link:hover {
     background: rgba(0, 0, 0, 0.15);
 }
 
+
 nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-shrink: 1;
-}
-
-nav ul li a {
     width: 130px;
     height: 70px;
     text-align: center;
@@ -113,12 +122,66 @@ nav ul li:last-child a {
     margin: 10px 10px;
 }
 
+main {
+    max-width: 1100px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newspan {
+    color:#28b81b;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+
 /* ----------------------------------------------------- */
 
 
+#snow-city {
+    height: 200px;
+}
 
 
+.textart {
+    height: 400px;
+}
 
+.textart ul li {
+    padding-right: 15px;
+    margin: 0 20px;
+    list-style:circle;
+}
 
+.textart ol {
+    margin-top: 20px;
+}
 
+.textart ol li,
+.textart dl {
 
+    margin: 0 35px;
+    list-style:lower-greek;
+    
+}
+
+table, td, th {
+    margin: 20px;
+    border: #5489c2 2px solid;
+    border-collapse: collapse;
+}
+
+fieldset {
+    padding: 10px;
+    margin: 5px;
+}
+
+label, input:not([name="whattocheck"]) {
+    display: block;
+    margin: 10px;
+}
+
+legend {
+    text-align: center;
+}

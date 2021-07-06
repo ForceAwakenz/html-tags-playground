@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This site is about adventures, that can meet you in cold and beautiful places.">
+    <meta name="robots" content="NOINDEX, NOFOLLOW">
+    <meta name="keywords" content="tourism, extreme, winter, snow">
     <script src="https://kit.fontawesome.com/f7251c8871.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -22,19 +25,148 @@
         <nav class="main-navigagion">
             <ul class="navigation">
                 <li><a class="navbar-link" href="#">Home</a></li>
-                <li><a class="navbar-link" href="#">Countries</a></li>
+                <li><a class="navbar-link" href="countries.html" target="_self">Countries</a></li>
                 <li><a class="navbar-link" href="#">Pricing</a></li>
-                <li><a class="navbar-link" href="#">Contact Us</a></li>
+                <li><a class="navbar-link" href="#thiss">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <article class="basic-article">
+            <h1>So winter is coming!</h1>
+            <p class="p-article">hi there</p>
+        </article>
+        <article class="basic-article">
+            <h2>here</h2>
+            <h3>Some inputs:</h3>
+            <h4>yes</h4>
+            <code>&lt;img&gt; </code>
+            <br>
+            <kbd>CTRL + i</kbd>
+            <h6>it's h6!</h6>
+        </article>
+        <article class="basic-article">
+            <p>Let's do something with <span class="newspan">spa&#769;n</span></p>
+
+        </article>
+        <article class="basic-article">
+            <img src="snow-city.jpg" alt="snow city" id="snow-city" usemap="#snow-city">
+
+            <map name="snow-city">
+                <area shape="rect" coords="100,100,200,200" href="countries.html" alt="snow">
+                <area shape="rect" coords="0,0,100,100" href="countries.html" alt="person">
+            </map>
+
+        </article>
+        <article class="basic-article textart">
+            <p>some text in &lt;p&gt;</p>
+            some text with &lt;br&gt; 
+            <br>
+            between it
+            <p>gotta some<sup>supertsripts</sup> and some<sub>subscripst too</sub></p>
+            <p>and it's so <strong>strong!</strong></p>
+            <p>but also I need some<mark>mark</mark></p>
+            <p>but how could we live without some <em>emphasis?!</em></p>
+        </article>
+        <article class="basic-article textart">
+            <p>let's do it <small>small</small></p>
+            <pre>
+                I can just
+                    work with the text 
+                        inside my html
+            </pre>
+            <abbr title="Fear of missing out">FOMO</abbr>
+            <p>I'm fine living in</p>
+            <address>
+                <del>Phuke&#769;t</del>
+                London &pound;
+            </address>
+            <hr>
+            <p>or I just can <s>strikethrough</s></p>
+
+
+        </article>
+        <article class="basic-article textart">
+            <ul id="yo">
+                <li>hi there</li>
+                <li>hi there</li>
+                <li>hi there</li>
+                <li>hi there</li>
+            </ul>
+            <ol start="2">
+                <li>hi there</li>
+                <li>hi there</li>
+                <li>hi there</li>
+                <li>hi there</li>
+            </ol>
+            <dl>
+                <dt>hi</dt>
+                <dd>
+                    it's about hello
+                </dd>
+            </dl>
+        </article>
+        <article class="basic-article textart">
+            <table>
+                <caption>This it the best table in the world</caption>
+                <colgroup>
+                    <col>
+                    <col span="2" class="batman">
+                </colgroup>
+                <tr>
+                    <th colspan="2">Some headings</th>
+                    <th>Some headings</th>
+                    <th>Some headings</th>
+                </tr>
+                <tr>
+                    <td>hi there, i need some content for my table
+                        <table hidden >
+                            <tr>
+                                <td>ooh, it's one more table!</td>
+                                <td>ooh, it's one more table!</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>hi there, i need some content for my table</td>
+                    <td>hi there, i need some content for my table</td>
+                    <td>hi there, i need some content for my table</td>
+                </tr>
+                <tr>
+                    <td>hi there, i need some content for my table</td>
+                    <td>hi there, i need some content for my table</td>
+                    <td>hi there, i need some content for my table</td>
+                    <td>hi there, i need some content for my table</td>
+                </tr>
+            </table>
+        </article>
+        <article class="basic-article textart">
+            <fieldset>
+                <legend>so it's time to test input</legend>
+                <label for="txt">let's input some text</label>
+                <input type="text" name="txt" id="txt" value="some value">
+                <label for="txt1">only 5 symbols</label>
+                <input type="text" name="txt" id="txt1" maxlength="5" placeholder="five symbols">
+                <label for="date">date and datetime</label>
+                <input type="date" name="date" id="date">
+                <input type="color">
+                <input type="password" name="" id="">
+                <input type="checkbox" name="whattocheck" id="">
+                option1
+
+            </fieldset>
+            </article>
+        <article class="basic-article textart">
+            <fieldset>
+                <legend>some new fieldset</legend>
+                <input type="file" name="" id="">
+            </fieldset>
+        </article>
+        <article class="basic-article textart"></article>
+        <article class="basic-article textart"></article>
         <article class="basic-article"></article>
+        <article class="basic-article" id="thiss"></article>
         <article class="basic-article"></article>
-        <article class="basic-article"></article>
-        <article class="basic-article"></article>
-        <article class="basic-article"></article>
-        <article class="basic-article"></article>
+
 
     </main>
 
