@@ -185,3 +185,7 @@ label, input:not([name="whattocheck"]) {
 legend {
     text-align: center;
 }
+
+input[type="radio"] {
+    display: inline;
+}
